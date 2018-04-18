@@ -60,11 +60,11 @@ ki8.login(token="Er7lRkmrqj47saJFoy0f./JXwkfp+u4nfpiyYCt3rhW.bU2pyM30/RUz4fl7Dxd
 ki8.loginResult()
 
 ki9 = VIPRO.LINE()
-ki9.login(token="token")
+ki9.login(token="ErVryYbR7zEK9LJn7pmf.SrrNO62JoBMwTM0dc/1lxW.XYKTWqIE+SBYApPpLVGA7D6sDkQt8Xd7wmjZW/y6RTE=")
 ki9.loginResult()
 
 ki10 = VIPRO.LINE() #Ghost
-ki10.login(token="token")
+ki10.login(token="Erlp9kaqDWsTmjOD5sc9.t2D+Q8GQs5QI1aUzyFPrAq.XD9UZeXKws/fCMqcv9VnICTFBnMhe4yJ1LdFmAh/0tM=")
 ki10.loginResult()
 print "═══「vipro login success」═══"
 reload(sys)
@@ -342,10 +342,10 @@ ki8mid = ki8.getProfile().mid
 ki9mid = ki9.getProfile().mid
 ki10mid = ki10.getProfile().mid
 Smid = owner.getProfile().mid
-Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,Smid,"uda936836a9869eb86ec8ab992a4e8979"]
-admin=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,Smid,"uda936836a9869eb86ec8ab992a4e8979","ue4e13b0a41d848845489374e671c6861","ub21eb3d440e0dfd640eef9f2fb5ce02d","u782cdf7a9fd2545c84a0cd86f418e9f7","u799da4e06d50e1775cfcff1f3e59df03"]
-creator=["uda936836a9869eb86ec8ab992a4e8979"]
-admsa=["uda936836a9869eb86ec8ab992a4e8979"]
+Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,Smid,"u61a9b5ce8de3eb51a859410c9834e5c8"]
+admin=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,Smid,"u61a9b5ce8de3eb51a859410c9834e5c8","ufdd0587a1d80d9285889f9d599d1f5eb","","",""]
+creator=["u61a9b5ce8de3eb51a859410c9834e5c8"]
+admsa=["u61a9b5ce8de3eb51a859410c9834e5c8"]
 
 readOpen = codecs.open("st2__b.json","r","utf-8")
 read = json.load(readOpen)
