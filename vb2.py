@@ -109,7 +109,7 @@ ki20.loginResult()
 print "═══「vipro login success」═══"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMenu="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
+helpMenu="""╔═══「 Sepri Bot」═══╗
 ╠╦═══════════════
 ║║🔰 Me
 ║║🔰 Add
@@ -176,9 +176,9 @@ helpMenu="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
 ║║🔰 Pmfavorite
 ║║🔰 Broken
 ╠╩═══════════════
-╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
+╚═══「 Sepri Bot」═══╝
   """
-helpMessage="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
+helpMessage="""╔═══「 Sepri Bot」═══╗
 ╠╦═══════════════
 ║║🔵 「Menu」
 ║║🔵 「Media」
@@ -187,9 +187,9 @@ helpMessage="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
 ║║🔵 「Settings」
 ║║🔵 「Set」
 ╠╩═══════════════
-╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
+╚═══「 Sepri Bot 」═══╝
 """  
-helpMedia="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
+helpMedia="""╔═══「 Sepri Bot」═══╗
 ╠╦═══════════════
 ║║🔘 Youtube 「 text」
 ║║🔘 Youtubesearch 「 user」
@@ -241,9 +241,9 @@ helpMedia="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
 ║║🔘 Wikipedia 「 text」
 ║║🔘 Checkdate 「 ttl」
 ╠╩═══════════════
-╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
+╚═══「 Sepri Bot」═══╝
 """
-helpFun = """╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
+helpFun = """╔═══「 Sepri Bot」═══╗
 ╠╦═══════════════
 ║║🔰 sider:「 text」
 ║║🔰 tagme:「 text」
@@ -252,10 +252,10 @@ helpFun = """╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
 ║║🔰 message set:「 text」
 ║║🔰 cekresponse
 ╠╩═══════════════
-╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
+╚═══「 Sepri Bot」═══╝
 """
 helpself="""
-╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
+╔═══「 Sepri Bot」═══╗
 ╠╦═══════════════
 ║║💠 Fuck1/10 "@"
 ║║💠 Kick1/10 "@"
@@ -277,9 +277,9 @@ helpself="""
 ║║💠 Allbio 「 status」
 ║║💠 Botbyeall  
 ╠╩═══════════════
-╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
+╚═══「 Sepri Bot」═══╝
   """
-helpset="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
+helpset="""╔═══「 Sepri Bot」═══╗
 ╠╦═══════════════
 ║║🔶 Ban:on/Unbl:on
 ║║🔶 Contact:on/off
@@ -310,10 +310,10 @@ helpset="""╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
 ║║🔶 Ghost:on/off
 ║║🔶 Allprotect:on/off
 ╠╩═══════════════
-╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
+╚═══「 Sepri Bot」═══╝
 """
 translateMessage ="""
-╔═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╗
+╔═══「 Sepri Bot」═══╗
 ╠╦═══════════════
 ║║🔴 Afrika/
 ║║🔴 Albanian/
@@ -366,7 +366,7 @@ translateMessage ="""
 ║║🔴 Vietnam/
 ║║🔴 Welsh/
 ╠╩═══════════════
-╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
+╚═══「 Sepri Bot」═══╝
 """
 KAC=[vipro,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10,ki11,ki12,ki13,ki14,ki15,ki16,ki17,ki18,ki19,ki20]
 DEF=[vipro,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10,ki11,ki12,ki13,ki14,ki15,ki16,ki17,ki18,ki19,ki20]
@@ -392,8 +392,8 @@ ki18mid = ki18.getProfile().mid
 ki19mid = ki19.getProfile().mid
 ki20mid = ki20.getProfile().mid
 Smid = owner.getProfile().mid
-Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,ki11mid,ki12mid,ki13mid,ki14mid,ki15mid,ki16mid,ki17mid,ki18mid,ki19mid,ki20mid,Smid,"u61a9b5ce8de3eb51a859410c9834e5c8"]
-admin=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,ki11mid,ki12mid,ki13mid,ki14mid,ki15mid,ki16mid,ki17mid,ki18mid,ki19mid,ki20mid,Smid,"u61a9b5ce8de3eb51a859410c9834e5c8","","","",""]
+Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,ki11mid,ki12mid,ki13mid,ki14mid,ki15mid,ki16mid,ki17mid,ki18mid,ki19mid,Smid,"u61a9b5ce8de3eb51a859410c9834e5c8"]
+admin=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,ki11mid,ki12mid,ki13mid,ki14mid,ki15mid,ki16mid,ki17mid,ki18mid,ki19mid,Smid,"u61a9b5ce8de3eb51a859410c9834e5c8","","","",""]
 creator=["u61a9b5ce8de3eb51a859410c9834e5c8"]
 admsa=["u61a9b5ce8de3eb51a859410c9834e5c8"]
 
@@ -522,12 +522,6 @@ backup.pictureStatus = contact.pictureStatus
 
 contact = ki19.getProfile()
 backup = ki19.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
-
-contact = ki20.getProfile()
-backup = ki20.getProfile()
 backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
@@ -895,6 +889,16 @@ def bot(op):
 			    ki7.acceptGroupInvitationByTicket(op.param1,Ticket)
 			    ki8.acceptGroupInvitationByTicket(op.param1,Ticket)
 			    ki9.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    ki10.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    ki11.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    ki12.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    ki13.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    ki14.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    ki15.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    ki16.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    ki17.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    ki18.acceptGroupInvitationByTicket(op.param1,Ticket)
+			    ki19.acceptGroupInvitationByTicket(op.param1,Ticket)
 			    G.preventJoinByTicket = True
 			    vipro.updateGroup(G)
                     else:
