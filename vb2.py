@@ -368,8 +368,8 @@ translateMessage ="""
 ╠╩═══════════════
 ╚═══「 ᴠɪᴘʀᴏ ʙᴏᴛ」═══╝
 """
-KAC=[vipro,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10]
-DEF=[vipro,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10]
+KAC=[vipro,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10,ki11,ki12,ki13,ki14,ki15,ki16,ki17,ki18,ki19,ki20]
+DEF=[vipro,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10,ki11,ki12,ki13,ki14,ki15,ki16,ki17,ki18,ki19,ki20]
 mid = vipro.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
@@ -381,9 +381,19 @@ ki7mid = ki7.getProfile().mid
 ki8mid = ki8.getProfile().mid
 ki9mid = ki9.getProfile().mid
 ki10mid = ki10.getProfile().mid
+ki11mid = ki11.getProfile().mid
+ki12mid = ki12.getProfile().mid
+ki13mid = ki13.getProfile().mid
+ki14mid = ki14.getProfile().mid
+ki15mid = ki15.getProfile().mid
+ki16mid = ki16.getProfile().mid
+ki17mid = ki17.getProfile().mid
+ki18mid = ki18.getProfile().mid
+ki19mid = ki19.getProfile().mid
+ki20mid = ki20.getProfile().mid
 Smid = owner.getProfile().mid
-Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,Smid,"u61a9b5ce8de3eb51a859410c9834e5c8"]
-admin=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,Smid,"u61a9b5ce8de3eb51a859410c9834e5c8","ufdd0587a1d80d9285889f9d599d1f5eb","","",""]
+Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,ki11mid,ki12mid,ki13mid,ki14mid,ki15mid,ki16mid,ki17mid,ki18mid,ki19mid,ki20mid,Smid,"u61a9b5ce8de3eb51a859410c9834e5c8"]
+admin=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,ki11mid,ki12mid,ki13mid,ki14mid,ki15mid,ki16mid,ki17mid,ki18mid,ki19mid,ki20mid,Smid,"u61a9b5ce8de3eb51a859410c9834e5c8","","","",""]
 creator=["u61a9b5ce8de3eb51a859410c9834e5c8"]
 admsa=["u61a9b5ce8de3eb51a859410c9834e5c8"]
 
@@ -456,6 +466,72 @@ backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
+contact = ki10.getProfile()
+backup = ki10.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
+contact = ki11.getProfile()
+backup = ki11.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
+contact = ki12.getProfile()
+backup = ki12.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
+contact = ki13.getProfile()
+backup = ki13.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
+contact = ki14.getProfile()
+backup = ki14.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
+contact = ki15.getProfile()
+backup = ki15.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
+contact = ki16.getProfile()
+backup = ki16.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
+contact = ki17.getProfile()
+backup = ki17.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
+contact = ki18.getProfile()
+backup = ki18.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
+contact = ki19.getProfile()
+backup = ki19.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
+contact = ki20.getProfile()
+backup = ki20.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
+
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -471,7 +547,7 @@ wait = {
     'message':"THANKS FOR ADD ME",
     "lang":"JP",
     "comment":"Thanks For Add Me",
-    "comment1":"ᴀᴜᴛᴏ ʟɪᴋᴇ ⓑⓨ「 ᴠɪᴘʀᴏ 」\n\n\n\nline.me/ti/p/~gjxvipro",
+    "comment1":"ᴀᴜᴛᴏ ʟɪᴋᴇ ⓑⓨ「 sepriche 」\n\n\n\nline.me/ti/p/~sepriche",
     "commentOn":False,
     "likeOn":{},
     "wcOn":True,
