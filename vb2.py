@@ -63,9 +63,49 @@ ki9 = VIPRO.LINE()
 ki9.login(token="ErVryYbR7zEK9LJn7pmf.SrrNO62JoBMwTM0dc/1lxW.XYKTWqIE+SBYApPpLVGA7D6sDkQt8Xd7wmjZW/y6RTE=")
 ki9.loginResult()
 
-ki10 = VIPRO.LINE() #Ghost
-ki10.login(token="Erlp9kaqDWsTmjOD5sc9.t2D+Q8GQs5QI1aUzyFPrAq.XD9UZeXKws/fCMqcv9VnICTFBnMhe4yJ1LdFmAh/0tM=")
+ki10 = VIPRO.LINE()
+ki10.login(token="TOKEN")
 ki10.loginResult()
+
+ki11 = VIPRO.LINE()
+ki11.login(token="TOKEN")
+ki11.loginResult()
+
+ki12 = VIPRO.LINE()
+ki12.login(token="TOKEN")
+ki12.loginResult()
+
+ki13 = VIPRO.LINE()
+ki13.login(token="TOKEN")
+ki13.loginResult()
+
+ki14 = VIPRO.LINE()
+ki14.login(token="TOKEN")
+ki14.loginResult()
+
+ki15 = VIPRO.LINE()
+ki15.login(token="TOKEN")
+ki15.loginResult()
+
+ki16 = VIPRO.LINE()
+ki16.login(token="TOKEN")
+ki16.loginResult()
+
+ki17 = VIPRO.LINE()
+ki17.login(token="TOKEN")
+ki17.loginResult()
+
+ki18 = VIPRO.LINE()
+ki18.login(token="TOKEN")
+ki18.loginResult()
+
+ki19 = VIPRO.LINE()
+ki19.login(token="TOKEN")
+ki19.loginResult()
+
+ki20 = VIPRO.LINE() #Ghost
+ki20.login(token="Erlp9kaqDWsTmjOD5sc9.t2D+Q8GQs5QI1aUzyFPrAq.XD9UZeXKws/fCMqcv9VnICTFBnMhe4yJ1LdFmAh/0tM=")
+ki20.loginResult()
 print "═══「vipro login success」═══"
 reload(sys)
 sys.setdefaultencoding('utf-8')
