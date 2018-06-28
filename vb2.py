@@ -922,7 +922,7 @@ def bot(op):
               if not op.param2 in admsa and creator:
                 if wait["protect"] == True: 
                     try:
-                        klist=[ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9]
+                        klist=[ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10,ki11,ki12,ki13,ki14,ki15,ki16,ki17,ki18,ki19]
                         kicker = random.choice(klist) 
                         G = kicker.getGroup(op.param1)
                         kicker.kickoutFromGroup(op.param1,[op.param2])
@@ -1021,25 +1021,135 @@ def bot(op):
                 
             if op.param3 in ki8mid:
                 if op.param2 in ki7mid:
-                    X = ki7.getGroup(op.param1)
+                    X = ki.getGroup(op.param1)
                     X.preventJoinByTicket = False
-                    ki7.updateGroup(X)
+                    ki.updateGroup(X)
                     Ti = ki7.reissueGroupTicket(op.param1)
-                    ki8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    ki7.acceptGroupInvitationByTicket(op.param1,Ti)
                     X.preventJoinByTicket = True
                     ki8.updateGroup(X)
                     Ti = ki8.reissueGroupTicket(op.param1)
-                    
+
             if op.param3 in ki9mid:
-                if op.param2 in mid:
-                    X = vipro.getGroup(op.param1)
+                if op.param2 in ki8mid:
+                    X = ki8.getGroup(op.param1)
                     X.preventJoinByTicket = False
-                    vipro.updateGroup(X)
-                    Ti = vipro.reissueGroupTicket(op.param1)
+                    ki8.updateGroup(X)
+                    Ti = ki8.reissueGroupTicket(op.param1)
                     ki9.acceptGroupInvitationByTicket(op.param1,Ti)
                     X.preventJoinByTicket = True
-                    vipro.updateGroup(X)
-                    Ti = vipro.reissueGroupTicket(op.param1)
+                    ki9.updateGroup(X)
+                    Ti = ki9.reissueGroupTicket(op.param1)
+                
+            if op.param3 in ki10mid:
+                if op.param2 in ki9mid:
+                    X = ki9.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    ki9.updateGroup(X)
+                    Ti = ki9.reissueGroupTicket(op.param1)
+                    ki10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    ki10.updateGroup(X)
+                    Ti = ki10.reissueGroupTicket(op.param1)
+                    
+            if op.param3 in ki11mid:
+                if op.param2 in ki10mid:
+                    X = ki10.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    ki10.updateGroup(X)
+                    Ti = ki10.reissueGroupTicket(op.param1)
+                    ki11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    ki11.updateGroup(X)
+                    Ti = ki11.reissueGroupTicket(op.param1)
+                
+            if op.param3 in ki12mid:
+                if op.param2 in ki11mid:
+                    X = ki11.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    ki11.updateGroup(X)
+                    Ti = ki11.reissueGroupTicket(op.param1)
+                    ki12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    ki12.updateGroup(X)
+                    Ti = ki12.reissueGroupTicket(op.param1)
+                
+            if op.param3 in ki13mid:
+                if op.param2 in ki12mid:
+                    X = ki12.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    ki12.updateGroup(X)
+                    Ti = ki12.reissueGroupTicket(op.param1)
+                    ki13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    ki13.updateGroup(X)
+                    Ti = ki13.reissueGroupTicket(op.param1)
+                
+            if op.param3 in ki14mid:
+                if op.param2 in ki13mid:
+                    X = ki13.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    ki13.updateGroup(X)
+                    Ti = ki13.reissueGroupTicket(op.param1)
+                    ki14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    ki14.updateGroup(X)
+                    Ti = ki14.reissueGroupTicket(op.param1)
+                
+            if op.param3 in ki15mid:
+                if op.param2 in ki14mid:
+                    X = ki14.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    ki14.updateGroup(X)
+                    Ti = ki14.reissueGroupTicket(op.param1)
+                    ki15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    ki15.updateGroup(X)
+                    Ti = ki15.reissueGroupTicket(op.param1)
+                    
+            if op.param3 in ki16mid:
+                if op.param2 in ki15mid:
+                    X = ki15.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    ki15.updateGroup(X)
+                    Ti = ki15.reissueGroupTicket(op.param1)
+                    ki16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    ki16.updateGroup(X)
+                    Ti = ki116.reissueGroupTicket(op.param1)
+                
+            if op.param3 in ki17mid:
+                if op.param2 in ki16mid:
+                    X = ki16.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    ki16.updateGroup(X)
+                    Ti = ki1106.reissueGroupTicket(op.param1)
+                    ki17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    ki17.updateGroup(X)
+                    Ti = ki17.reissueGroupTicket(op.param1)
+                
+            if op.param3 in ki18mid:
+                if op.param2 in ki17mid:
+                    X = ki17.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    ki17.updateGroup(X)
+                    Ti = ki17.reissueGroupTicket(op.param1)
+                    ki18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    ki18.updateGroup(X)
+                    Ti = ki18.reissueGroupTicket(op.param1)
+			
+            if op.param3 in ki19mid:
+                if op.param2 in ki18mid:
+                    X = ki18.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    ki18.updateGroup(X)
+                    Ti = ki18.reissueGroupTicket(op.param1)
+                    ki19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    ki19.updateGroup(X)
+                    Ti = ki19.reissueGroupTicket(op.param1)
                                   
         if op.type == 55:
 	    try:
@@ -1084,6 +1194,19 @@ def bot(op):
                         gs = ki7.getGroup(op.param1)
                         gs = ki8.getGroup(op.param1)
                         gs = ki9.getGroup(op.param1)
+                        gs = ki10.getGroup(op.param1)
+                        gs = ki11.getGroup(op.param1)
+                        gs = ki12.getGroup(op.param1)
+                        gs = ki13.getGroup(op.param1)
+                        gs = ki14.getGroup(op.param1)
+                        gs = ki15.getGroup(op.param1)
+                        gs = ki16.getGroup(op.param1)
+                        gs = ki17.getGroup(op.param1)
+                        gs = ki18.getGroup(op.param1)
+                        gs = ki19.getGroup(op.param1)
+			
+gs = ki15.getGroup(op.param1)
+gs = ki9.getGroup(op.param1)
                         targets = [op.param2]
                         for target in targets:
                            try:
@@ -1163,7 +1286,17 @@ def bot(op):
                 ki6.like(url[25:58], url[66:], likeType=1002)
                 ki7.like(url[25:58], url[66:], likeType=1003)
                 ki8.like(url[25:58], url[66:], likeType=1004)
-                ki9.like(url[25:58], url[66:], likeType=1005)
+                ki9.like(url[25:58], url[66:], likeType=1002)
+                ki10.like(url[25:58], url[66:], likeType=1003)
+                ki11.like(url[25:58], url[66:], likeType=1004)
+                ki12.like(url[25:58], url[66:], likeType=1005)
+                ki13.like(url[25:58], url[66:], likeType=1001)
+                ki14.like(url[25:58], url[66:], likeType=1002)
+                ki15.like(url[25:58], url[66:], likeType=1003)
+                ki16.like(url[25:58], url[66:], likeType=1004)
+                ki17.like(url[25:58], url[66:], likeType=1002)
+                ki18.like(url[25:58], url[66:], likeType=1003)
+                ki19.like(url[25:58], url[66:], likeType=1004)
                 #ki10.like(url[25:58], url[66:], likeType=1001)
                 vipro.comment(url[25:58], url[66:], wait["comment1"])
                 ki.comment(url[25:58], url[66:], wait["comment1"])
@@ -1175,6 +1308,16 @@ def bot(op):
                 ki7.comment(url[25:58], url[66:], wait["comment1"])
                 ki8.comment(url[25:58], url[66:], wait["comment1"])
                 ki9.comment(url[25:58], url[66:], wait["comment1"])
+                ki10.comment(url[25:58], url[66:], wait["comment1"])
+                ki11.comment(url[25:58], url[66:], wait["comment1"])
+                ki12.comment(url[25:58], url[66:], wait["comment1"])
+                ki13.comment(url[25:58], url[66:], wait["comment1"])
+                ki14.comment(url[25:58], url[66:], wait["comment1"])
+                ki15.comment(url[25:58], url[66:], wait["comment1"])
+                ki16.comment(url[25:58], url[66:], wait["comment1"])
+                ki17.comment(url[25:58], url[66:], wait["comment1"])
+                ki18.comment(url[25:58], url[66:], wait["comment1"])
+                ki19.comment(url[25:58], url[66:], wait["comment1"])
                 #ki10.comment(url[25:58], url[66:], wait["comment1"])
                 wait["likeOn"] = False
 #-----------------------------------------------
@@ -1414,6 +1557,16 @@ def bot(op):
                 gid = ki7.getGroupIdsJoined()
                 gid = ki8.getGroupIdsJoined()
                 gid = ki9.getGroupIdsJoined()
+                gid = ki10.getGroupIdsJoined()
+                gid = ki11.getGroupIdsJoined()
+                gid = ki12.getGroupIdsJoined()
+                gid = ki13.getGroupIdsJoined()
+                gid = ki14.getGroupIdsJoined()
+                gid = ki15.getGroupIdsJoined()
+                gid = ki16.getGroupIdsJoined()
+                gid = ki17.getGroupIdsJoined()
+                gid = ki18.getGroupIdsJoined()
+                gid = ki19.getGroupIdsJoined()
                 for i in gid:
                   ki.leaveGroup(i)
                   ki2.leaveGroup(i)
@@ -1424,6 +1577,16 @@ def bot(op):
                   ki7.leaveGroup(i)
                   ki8.leaveGroup(i)
                   ki9.leaveGroup(i)
+                  ki10.leaveGroup(i)
+                  ki11.leaveGroup(i)
+                  ki12.leaveGroup(i)
+                  ki13.leaveGroup(i)
+                  ki14.leaveGroup(i)
+                  ki15.leaveGroup(i)
+                  ki16.leaveGroup(i)
+                  ki17.leaveGroup(i)
+                  ki18.leaveGroup(i)
+                  ki19.leaveGroup(i)
                 if wait["lang"] == "JP":
                   random.choice(KAC).sendText(msg.to,"Bye~Bye " + str(ginfo.name) + "\n\nBots Dipaksa Keluar oleh selfbot...!!!\nMakasih...!!!")
                 else:
@@ -1458,6 +1621,16 @@ def bot(op):
 					t = ki7.getAllContactIds()
 					t = ki8.getAllContactIds()
 					t = ki9.getAllContactIds()
+					t = ki10.getAllContactIds()
+					t = ki11.getAllContactIds()
+					t = ki12.getAllContactIds()
+					t = ki13.getAllContactIds()
+					t = ki14.getAllContactIds()
+					t = ki15.getAllContactIds()
+					t = ki16.getAllContactIds()
+					t = ki17.getAllContactIds()
+					t = ki18.getAllContactIds()
+					t = ki19.getAllContactIds()
 					for manusia in t:
 						vipro.sendText(manusia,(bctxt))
 						ki.sendText(manusia,(bctxt))
@@ -1469,6 +1642,16 @@ def bot(op):
 						ki7.sendText(manusia,(bctxt))
 						ki8.sendText(manusia,(bctxt))
 						ki9.sendText(manusia,(bctxt))
+						ki10.sendText(manusia,(bctxt))
+						ki11.sendText(manusia,(bctxt))
+						ki12.sendText(manusia,(bctxt))
+						ki13.sendText(manusia,(bctxt))
+						ki14.sendText(manusia,(bctxt))
+						ki15.sendText(manusia,(bctxt))
+						ki16.sendText(manusia,(bctxt))
+						ki17.sendText(manusia,(bctxt))
+						ki18.sendText(manusia,(bctxt))
+						ki19.sendText(manusia,(bctxt))
             elif "/Sendpm " in msg.text:
                     bctxt = msg.text.replace("/Sendpm ", "")
                     t = vipro.getAllContactIds()
