@@ -1205,8 +1205,6 @@ def bot(op):
                         gs = ki18.getGroup(op.param1)
                         gs = ki19.getGroup(op.param1)
 			
-gs = ki15.getGroup(op.param1)
-gs = ki9.getGroup(op.param1)
                         targets = [op.param2]
                         for target in targets:
                            try:
